@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128540; Welcome To Your Pictures Corner Wahahaha &#128540;</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images2/birthday-background-2.jpg') no-repeat center center;
+            background-size: cover;
+        }
+		 header {
+            background: url('images/birthday-background.jpg');
+            background-size: cover;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'kaiti', cursive;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('images-gallery/pngtree-cartoon-creative-happy-birthday-poster-picture-image_1050830.jpg') no-repeat center ;
+			background-size:150%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+			font-size: 45px;
+			font-family: Garamond, sans-serif;
+			font-family: kaiti, cursive;
+			text-align: center;
+        }
+        footer {
+            text-align: center;
+            background: #4CAF50;
+            color: black, bold;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 40px;
+			background: url('images/birthday-background.jpg');
+			background-size: cover;
+			
+        }
+		.images-multiple img {
+            width: 80%; /* Set the width to 300 pixels */
+            height: auto; /* Maintain aspect ratio */
+			margin: 40px;
+			padding: 20px 0;
+			
+		 }
+		 .play-button {
+            background-color: cyan; /* Change this to your desired color */
+            color: black; /* Text color */
+            border: none; /* Remove border */
+            padding: 10px 20px; /* Padding for the button */
+            font-size: 20px; /* Font size */
+            cursor: pointer; /* Change cursor on hover */
+            transition: background-color 0.3s; /* Smooth transition */
+			font-family: Copperplate, Papyrus, fantasy;
+			height: 50px;
+        }
+
+        .play-button:hover {
+            background-color: #007BFF; /* Change color on hover */
+        }
+
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> &#128248; Welcome to Your Pictures Corner 欢迎来到你的照片（丑照 角落处 &#128248; </h1>
+</header>
+
+<!-- Add a button to play audio with the new class -->
+<button class="play-button" onclick="playAudio()">&#127874; Play Birthday Song Here ! &#127874;</button>
+
+<!-- Audio tag without muted -->
+<audio id="background-audio" preload="auto">
+    <source src="audio/song.MP3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<div class="container">
+    <h2 id="home">你的照片 Your Photos Here ! Surprise ! &#128514; </h2>
+    <p>Happy Birthday Miss Aidaa Wahahaha.&#128514;</p>
+	<p> &#128570; 这是我第一次做的网站 有点过于simple希望你不要介意哈哈 &#128517; </p>
+	<p> &#129395; OK啦 这里祝你生日快乐 身体健康 happy always 也祝福你的成绩会如你所愿 拿到你想要的 &#128525;</p>
+	<p> &#128570; 每天在宿舍看到帅哥就hehehehehe 偷感十足leh （walao我光是打字我都可以想象得到那个场景是怎样哈哈哈）ok啦 还有一年多相处 以后赚钱请我吃饭yeah 可以吗aidaa = 可以啦 哈哈哈&#128514;&#128514;</p>
+	<p> &#129321; 有时间多找我打pubg勒 我等你带飞我的咯 还有hazmob sad啦 &#129402; 账号不见了 我觉得你回宿舍应该就回来了哈哈哈 </p>
+	<p> &#128570; 下面这些照片 哈哈哈哈sorry 生日就是要恶搞一下朋友 可以吗aidaa = 可以啦 ， 每次都是不用等你回答的哈哈哈 &#128514; </p>
+	<p> &#129396; 我design技术有点差水 灵感没有太多 but我知道你很喜欢猫所以特地找猫图片哦 所以不要介意啊 这个网站可以一直用的不要担心 虽然link有点奇怪（？&#129488; </p>
+    <p> &#128570; balalala还有很多废话 之后慢慢跟你说 最后 再次祝你生日快乐！&#127873;  &#127872; Apollo妹&#127851; and Spicy Queen&#127798;&#128120;  ， 每天 YAHOOO 的 哈哈哈哈<p>
+    <div class="images-multiple">
+        <img src="images-multiple/ss-1.png" alt="wahaha" />
+		<img src="images-multiple/ss-2.png" alt="wahaha" />
+		<img src="images-multiple/ss-3.png" alt="wahaha" />
+		
+    </div>
+</div>
+
+<footer>
+    <p>我知道你很感动 别客气别客气 哈哈哈哈 &#128514;.</p>
+</footer>
+
+<script>
+    function playAudio() {
+        const audio = document.getElementById('background-audio');
+        audio.play().catch(error => {
+            console.log("Playback failed:", error);
+        });
+    }
+
+    function showAlert() {
+        alert('Remember to be happy always!');
+    }
+</script>
+
+</body>
+</html>
